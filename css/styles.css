@@ -1,0 +1,393 @@
+@import
+url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  padding: 2em 0;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: .14em .14em .14em #333333;
+}
+@media (min-width: 60rem) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-weight: lighter;
+  }
+}
+@media (min-width: 76rem) {
+  h1 {
+    font-size: 2.6em;
+  }
+}
+@media (min-width: 86rem) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+h1 span {
+  padding: 0 0;
+  display: block;
+  color: #fff;
+  text-shadow: .14em .14em .14em #333333;
+}
+
+h2 {
+  padding: .7em 0;
+  font-weight: lighter;
+  font-size: .9em;
+  color: #fff;
+  text-shadow: .14em .14em .14em #333333;
+}
+
+
+/* header section
+ --- Navigation ---
+ */
+nav ul {
+  position: absolute;
+  width: 98vw;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 0em;
+  padding-right: 0em;
+  text-align: center;
+ }
+nav li {
+  width: 22%;
+  font-weight: 300;
+  font-size: .8em;
+  display: inline-block;
+  vertical-align: middle;
+  text-shadow: .14em .14em .14em #333333;
+ }
+
+nav a {
+  color: #bcbcbc;
+  text-decoration: none;
+ }
+
+nav a:hover,
+nav a:focus {
+  color: #fff;
+ }
+
+.privacyheader a {
+  color: #333333;
+}
+
+.privacyheader li {
+  text-shadow: .14em .14em .14em #f4f4f4;
+}
+
+.home {
+  background-image: url(../img/main.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+@media (min-width: 30rem) {
+  .home {
+    padding: 4em 10em;
+  }
+}
+
+@media (min-width: 60rem) {
+  .home {
+    background-image: url(../img/main.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-right: 40rem;
+    padding-top: 14rem;
+    padding-left: 0;
+  }
+}
+@media (min-width: 68rem) {
+  .home {
+    padding-right: 45rem;
+  }
+}
+
+@media (min-width: 76rem) {
+  .home {
+    padding-right: 50rem;
+  }
+}
+
+@media (min-width: 86rem) {
+  .home {
+    padding-right: 55rem;
+  }
+}
+
+@media (min-width: 96rem) {
+  .home {
+    padding-right: 62rem;
+  }
+}
+
+@media (min-width: 106rem) {
+  .home {
+    padding-right: 70rem;
+  }
+}
+
+.downloadapp {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+}
+
+@media (min-width: 60rem) {
+  .container {
+    text-align: right;
+  }
+}
+
+.our-app {
+  padding: .8em 2em;
+  display: block;
+  background-image: url(../img/features.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-app h1 {
+  font-weight: 300;
+  padding: 1em;
+  text-shadow: .14em .14em .14em #e0e0e0;
+}
+
+.our-app-caption h1 {
+  color: #333333
+}
+
+.our-app-privacy {
+  padding: .8em 2em;
+  display: block;
+  background-image: url(../img/features.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-app-privacy h1 {
+  font-weight: 300;
+  padding: 1em;
+  text-shadow: .14em .14em .14em #e0e0e0;
+}
+
+.our-app-caption-privacy h1 {
+  color: #333333
+}
+
+
+.line {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: .1em;
+  background-color: #333333;
+}
+
+.our-app-description h2 {
+  padding: 1em;
+  font-size: .8em;
+  color: #333333;
+  text-shadow: none;
+}
+@media (min-width: 60rem) {
+  .our-app-description h2 {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 96rem) {
+  .our-app-description h2 {
+    font-size: 1.6em;
+  }
+}
+
+.features h1 {
+  padding: 1em;
+  text-shadow: .14em .14em .14em #e0e0e0;
+  color: #333333;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.features ul {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+ul {
+  font-size: .8em;
+  text-decoration: none;
+  text-align: left;
+  list-style-type: circle;
+}
+@media (min-width: 60rem) {
+  ul {
+    font-size: 1.2em;
+    padding-left: 10em;
+    padding-bottom: 20em;
+  }
+}
+
+.inapp {
+  display: block;
+  padding: .8em 2em;
+}
+
+.inapp h1 {
+  color: #333333;
+  font-weight: 300;
+  padding: 0.5em;
+  text-shadow: .14em .14em .14em #e0e0e0;
+}
+
+.screen {
+  padding: 0 0;
+}
+
+.screen h1 {
+  margin-top: 2em;
+  width: 80%;
+  background-color: #39b54a;
+  color: #FFF;
+  font-size: 1.4em;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  padding: 0.5em;
+  text-shadow: .14em .14em .14em #333333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inapp ul {
+  padding: 1.2em 1.2em;
+  font-size: .8em;
+  text-decoration: none;
+  text-align: left;
+  list-style-type: none;
+}
+
+.screentext {
+  background-color: #e8e8e8;
+  border-bottom: .2em solid #39b54a;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.screenshotimage {
+  padding-top: 1em;
+  width: 80%;
+}
+
+@media (min-width: 60rem) {
+  .leftscreen {
+    display: inline-block;
+    width: 30%;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .rightscreen {
+    display: inline-block;
+    width: 30%;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+}
+
+.footer ul {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 0em;
+  padding-right: 0em;
+  text-align: center;
+}
+.footer li {
+  width: 22%;
+  font-weight: 300;
+  font-size: .9em;
+  display: inline-block;
+  vertical-align: middle;
+  text-shadow: .14em .14em .14em #dddddd;
+}
+
+.footer a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: #333333;
+}
+
+.footer h3 {
+  padding: 1em;
+  font-size: .8em;
+  color: #333333;
+}
+
+.privacytext h2 {
+  padding: .0 2em;
+  font-size: .8em;
+  color: #333333;
+  text-shadow: none;
+  text-align: left;
+}
+
+.privacytext {
+  padding-bottom: 1em;
+}
+
+.privacycontainer h2 {
+  padding: 2em 1em;
+  font-size: .8em;
+  color: #000000;
+  text-shadow: none;
+  text-align: justify;
+  line-height: 1.5em;
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+.privacycontainer p {
+  padding: .3em 0;
+}
+.privacycontainer h1 {
+  padding-bottom: 0;
+  padding-top: 2em;
+  font-size: 1em;
+  color: #000000;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 30rem) {
+  .privacycontainer h1 {
+    font-size: 1.4em;
+    color: #333333;
+    text-shadow: none;
+    text-align: left;
+  }
+}
